@@ -6,6 +6,9 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using System.Web.Mvc;    //readme.txt
+using System.Web.Routing;    //readme.txt
+using System.Web.Optimization;    //readme.txt
 
 namespace HailMary1
 {
@@ -16,6 +19,11 @@ namespace HailMary1
             // Código que se ejecuta al iniciar la aplicación
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            AreaRegistration.RegisterAllAreas();    //readme.txt
+            RouteConfig2.RegisterRoutes(RouteTable.Routes);    //readme.txt
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);    //readme.txt
+            BundleConfig2.RegisterBundles(BundleTable.Bundles);    //readme.txt
         }
     }
 }
