@@ -69,6 +69,9 @@
                         <a class="nav-link" runat="server" href="~/">Inicio</a>
                     </li>
                     <li class="nav-item nav-link">
+                        <a class="nav-link" runat="server" href="~/car">Vehiculos</a>
+                    </li>
+                    <li class="nav-item nav-link">
                         <a class="nav-link" runat="server" href="~/About">Acerca de</a>
                     </li>
                     <li class="nav-item nav-link">

@@ -7,8 +7,6 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.Mvc;    //readme.txt
-using System.Web.Routing;    //readme.txt
-using System.Web.Optimization;    //readme.txt
 
 namespace HailMary1
 {
